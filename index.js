@@ -20,16 +20,3 @@ const typed = new Typed('.multiple-text', {
       loop: true,
     });
 
-function toggleReadMore() {
-    const content = document.getElementById("more-content");
-    const btn = document.getElementById("readBtn");
-
-    content.classList.toggle("show");
-
-    if (content.classList.contains("show")) {
-        btn.innerText = "Read Less";
-    } else {
-        btn.innerText = "Read More";
-    }
-}
-
